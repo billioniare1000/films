@@ -15,6 +15,8 @@ const API_OPTION = {
   headers: {
     accept: "application/json",
     Authorization: `Bearer ${API_KEY}`,
+    // eslint-disable-next-line no-dupe-keys
+    
   },
 };  
 
