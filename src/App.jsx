@@ -6,7 +6,7 @@ import { Search } from "./components/search";
 import Spinner from "./components/spinner";
 import MovieCard from "./components/movieCard";
 
-const BASE_URL = "https://api.themoviedb.org/3";
+const BASE_URL = "https://inquisitive-banoffee-5b24b3.netlify.app/.netlify/functions/tmdb";
 
 const API_KEY = import.meta.env.VITE_TMDB_API_KEY;
 
